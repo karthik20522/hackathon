@@ -36,8 +36,6 @@ libraryDependencies ++= {
   )
 }
 
-seq(Revolver.settings: _*)
-
 // Assembly settings
 mainClass in Global := Some("com.getty.hackathon")
 
