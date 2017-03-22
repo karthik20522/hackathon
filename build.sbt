@@ -38,7 +38,3 @@ libraryDependencies ++= {
 
 // Assembly settings
 mainClass in Global := Some("com.getty.hackathon")
-
-test in assembly := {}
-
-jarName in assembly := "hackathon.jar"
